@@ -1,0 +1,51 @@
+
+#container{
+    background-color: rgb(215, 191, 253);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+   
+}
+h1{
+    background-color: rgb(145, 99, 206);
+    color:#ffffff;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+
+}
+div{
+    width: 500px;
+    height: 500px;
+  
+
+}
+
+img{
+    width: 100%;
+    max-width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border: 4px solid rgb(204, 167, 252);
+    
+}
+h2{
+    text-align: center;
+}
+a{
+    color: rgb(132, 132, 255)   ;
+}
+a:hover{
+    font-size: 25px;
+    color:rgb(88, 99, 253)
+}
+div::after{
+    content: "";
+    width: 400px
+}
